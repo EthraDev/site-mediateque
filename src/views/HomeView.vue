@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-blanc h-[500vh]">
+  <div class="bg-blanc h-[600vh]">
     <Header/>
     <Presentation/>
     <div class="abonnements w-8/12 h-[70vh] justify-between flex flex-col mx-auto my-[10vh]">
@@ -19,10 +19,12 @@
       </div>
       <div class="cards flex flex-row justify-between w-9/12 mx-auto">
         <Card url="/imgs/women.jpg" titre="Je me suis récemment abonné à ce service de livre électronique et je suis ravie de ..." icon="/imgs/speech.svg"/>
-        <Card2 url="/imgs/men.jpg" titre="L'un des avantages de ce service est que je peux emprunter plusieurs ..." icon="/imgs/speech.svg"/>
+        <Card2 url="/imgs/men.jpg" titre="L'un des avantages de ce service est que je peux emprunter plusieurs livres à la fois..." icon="/imgs/speech.svg"/>
         <Card url="/imgs/women2.jpg" titre="L'expérience de lecture elle-même est fantastique, le texte est clair et facile à lire ..." icon="/imgs/speech.svg"/>
       </div>
     </div>
+    <span class="h-[10vh] w-full flex"></span>
+    <Form/>
   </div>
 </template>
 
@@ -32,7 +34,7 @@ import Presentation from '@/components/Presentation.vue'
 import Card from '@/components/Card.vue'
 import Card2 from '@/components/Card2.vue'
 import Abonnement from '@/components/Abonnement.vue'
-
+import Form from '@/components/Form.vue'
 
 export default {
 
@@ -44,6 +46,7 @@ export default {
     Card,
     Card2,
     Abonnement,
+    Form
   }
 }
 </script>

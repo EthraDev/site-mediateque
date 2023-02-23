@@ -1,8 +1,8 @@
 <template>
-  <div class="flex flex-col w-11/12 mx-auto pt-[8vh] h-[140vh] relative justify-between">
-    <div class="haut w-full flex flex-row h-[70%] relative">
-      <div class="left w-[40%] overflow-hidden">
-        <img class="object-cover" src="imgs/books-l.jpg" alt="books">
+  <div class="flex flex-col w-11/12 mx-auto pt-[8vh] h-[135vh] relative justify-between">
+    <div class="haut w-full flex flex-row h-[80%] relative">
+      <div class="left w-[40%] h-full overflow-hidden">
+        <img class="object-cover h-full" src="imgs/books-l.jpg" alt="books">
       </div>
       <div class="center w-2/3 justify-center items-start flex flex-col">
         <h2 class="font-paprika text-9xl relative capitalize ml-[5vh]">
