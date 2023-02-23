@@ -6,7 +6,10 @@
       </div>
       <div class="center w-2/3 justify-center items-start flex flex-col">
         <h2 class="font-paprika text-9xl relative capitalize ml-[5vh]">
-          <p class="absolute -left-[50%] -top-[120%]">A new way</p>
+          <div class="absolute -left-[50%] -top-[120%]">
+            <span class=" bg-white bg-opacity-25 blur-sm p-4 absolute w-full h-[15vh] z-[0]"></span>
+            <p class="ml-4 z-[10]">A new way</p>
+          </div>
           <p>to read</p>
         </h2>
         <p class="w-7/12 text-xl leading-10 mt-[5vh] ml-[5vh] tracking-[0.3vh]">Abonnez-vous à notre système d'abonnement e-book pour accéder à des milliers de livres en ligne !</p>

@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-blanc bg-opacity-50 flex flex-row justify-between w-full text-xl h-[8vh] fixed top-0 z-[90] items-center text-noir border-b-noir border-b-2">
+  <header class="bg-blanc bg-opacity-50 flex flex-row justify-between w-full text-2xl h-[8vh] fixed top-0 z-[90] items-center text-noir border-b-noir border-b-2">
     <div class="content w-11/12 mx-auto flex flex-row justify-between items-center">
       <div class="menu flex flex-row w-4/12 justify-between h-full items-center">
         <a href="#">Home</a>
