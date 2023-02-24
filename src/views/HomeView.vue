@@ -3,6 +3,8 @@
     <Header/>
     <Presentation/>
     <span class="h-[10vh] w-full flex"></span>
+    <Form/>
+    <span class="h-[10vh] w-full flex"></span>
     <div class="abonnements w-9/12 h-[70vh] justify-between flex flex-col mx-auto my-[10vh]">
       <div class="cards flex flex-row justify-between">
         <Card url="/imgs/books-hand.jpg" titre="Abonnement n°1" desc="35€" icon="/imgs/basket.svg"/>
@@ -27,8 +29,6 @@
       </div>
     </div>
     <span class="h-[15vh] w-full flex"></span>
-    <Form/>
-    <span class="h-[10vh] w-full flex"></span>
     <More/>
   </div>
 </template>
